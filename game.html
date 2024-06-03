@@ -1,0 +1,35 @@
+<html lang="en">
+    <!-- head of html document -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truth or Dare Game</title>
+    <!-- style to center game in browser -->
+    <style>
+        .centered-content {
+             /* Adjust value to your native screen resolution and auto center  */
+            max-width: 960px;
+            /* 450 px is for my screen resolution may be different depending on monitor */
+            margin: 450px; 
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- div for the style  -->
+    <div class="centered-content">
+        <!-- title of game -->
+        <h1>Truth or Dare</h1>
+        <!-- truth button -->
+        <button onclick="showTruth()">Truth</button>
+        <!-- dare button -->
+        <button onclick="showDare()">Dare</button>
+        <!-- where question or dare will show -->
+        <p id="result"></p>
+    </div>
+
+    <!-- script link -->
+    <script src="script.java"></script>
+</body>
+</html>
